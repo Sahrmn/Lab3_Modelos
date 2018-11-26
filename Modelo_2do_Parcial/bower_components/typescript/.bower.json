@@ -1,0 +1,15 @@
+{
+  "name": "typescript",
+  "homepage": "https://github.com/Microsoft/TypeScript",
+  "version": "3.1.6",
+  "_release": "3.1.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.1.6",
+    "commit": "457cbba56de1285825b83c5796285702549201ec"
+  },
+  "_source": "https://github.com/Microsoft/TypeScript.git",
+  "_target": "^3.1.6",
+  "_originalSource": "typescript",
+  "_direct": true
+}

@@ -1,0 +1,42 @@
+/// <reference path="fourslash.ts"/>
+
+////
+
+verify.completions({
+    includes: [
+        "break",
+        "case",
+        "catch",
+        "class",
+        "continue",
+        "debugger",
+        "declare",
+        "default",
+        "delete",
+        "do",
+        "else",
+        "enum",
+        "export",
+        "extends",
+        "false",
+        "finally",
+        "for",
+        "function",
+        "if",
+        "instanceof",
+        "interface",
+        "module",
+        "new",
+        "return",
+        "super",
+        "switch",
+        "this",
+        "throw",
+        "true",
+        "try",
+        "typeof",
+        "var",
+        "while",
+        "with",
+    ],
+});

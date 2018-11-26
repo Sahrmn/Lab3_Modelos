@@ -1,0 +1,12 @@
+=== tests/cases/compiler/fillInMissingTypeArgsOnConstructCalls.ts ===
+class A<T extends Object>{
+>A : A<T>
+
+      list: T ;
+>list : T
+}
+var a = new A();
+>a : A<{}>
+>new A() : A<{}>
+>A : typeof A
+

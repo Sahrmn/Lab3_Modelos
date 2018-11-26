@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="./scripts/jquery.js"></script>
+    <script src="./scripts/modelo.js"></script>
+    <script src="./scripts/vista.js"></script>
+    <script src="./scripts/controlador.js"></script>
+    <script src="./scripts/despachador_server.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    <title>ABM SuperHeroes</title>
+</head>
+
+<body>
+
+    <header>
+        <img class="imgc img-center" src="./images/banner.jpg" alt="heroes banner">
+        <div class="menu">
+            <!--  <a href="#formulario">Agregar</a> -->
+            <button id="btnAgregar">Agregar</button>
+        </div>
+    </header>
+
+<!--
+    <div id="formulario">
+        <div class="form-contenedor">
+            <form action="" id="formID">
+                Id: <input type="number" name = "id" id="id" required><br>
+                Nombre:<input type="text" name = "nombre" id = "nombre" required><br>
+                Apellido:<input type="text" name = "apellido" id = "apellido" required><br>
+                Alias: <input type="text" name = "alias" required id="alias"><br>
+                Edad:<input type="number" name = "edad" required pattern="{0,3}" id="edad"><br>
+                <input type="radio" name="lado" id="lado1" value="Heroe" required>Heroe<br>
+                <input type="radio" name="lado" id="lado2" value="Villano" required>Villano<br>
+                <input type="submit" value="Dar de Alta" id="btnAlta">
+                <button id="btnCancelar">Cancelar</button>
+            </form>
+        </div>
+-->
+    <div>
+          <form action="#" id="formulario">
+          
+            <h1>FORMULARIO</h1>
+            
+            <fieldset>
+              <label for="name">ID</label>
+              <input type="number" id="id" name="id">
+              
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre">
+              
+              <label for="apellido">Apellido:</label>
+              <input type="text" id="apellido" name="apellido">
+
+              <label for="alias">Alias:</label>
+              <input type="text" id="alias" name="alias">
+
+              <label for="edad">Edad:</label>
+              <input type="number" id="edad" name="edad">
+              
+              <label>Lado:</label>
+              <input type="radio" id="villano" value="Villano" name="lado"><label for="villano" class="light">Villano</label><br>
+              <input type="radio" id="heroe" value="Heroe" name="lado"><label for="heroe" class="light">Heroe</label>
+            </fieldset>
+            
+            <button type="submit" id="btnAlta">Dar de Alta</button>
+            <button id="btnEliminar">Eliminar</button>
+            <button id="btnModificar">Modificar</button>
+            <button id="btnCancelar">Cancelar</button>
+          </form>
+          
+
+    </div>
+
+    <div id="tabla">
+
+    </div>
+
+   <!-- ventana emergente -->
+
+
+</body>
+
+</html>

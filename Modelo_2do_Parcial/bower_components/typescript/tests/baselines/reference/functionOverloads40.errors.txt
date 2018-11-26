@@ -1,0 +1,12 @@
+tests/cases/compiler/functionOverloads40.ts(4,15): error TS2322: Type 'string' is not assignable to type 'boolean'.
+
+
+==== tests/cases/compiler/functionOverloads40.ts (1 errors) ====
+    function foo(bar:{a:number;}[]):string;
+    function foo(bar:{a:boolean;}[]):number;
+    function foo(bar:{a:any;}[]):any{ return bar }
+    var x = foo([{a:'bar'}]);
+                  ~
+!!! error TS2322: Type 'string' is not assignable to type 'boolean'.
+!!! related TS6500 tests/cases/compiler/functionOverloads40.ts:2:19: The expected type comes from property 'a' which is declared here on type '{ a: boolean; }'
+    
